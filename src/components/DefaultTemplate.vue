@@ -1,0 +1,775 @@
+<template> 
+  <svg
+   width="141.11278mm"
+   height="105.83929mm"
+   viewBox="0 0 500.00591 375.02112">
+  <g transform="translate(-120.07819,-312.23236)">
+    <g transform="translate(-4.0406102,1.0101525)">
+      <text class="title" y="364.1077" x="132.30132">
+        <tspan y="364.1077" x="132.30132">
+          HEFEWEIZEN
+        </tspan>
+      </text>
+      <text class="sub-title" y="416.86948" x="135.62163">
+        <tspan y="416.86948" x="135.62163">
+          v1.0.0
+        </tspan>
+      </text>
+      <text class="sub-title" y="390.75085" x="134.75249">
+        <tspan y="390.75085" x="134.75249">
+          Traditional German Wheat
+        </tspan>
+      </text>
+    </g>
+    <rect
+       style="opacity:0.97000002;fill:#ffde5a;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none"
+       width="302.14456"
+       height="21.230949"
+       x="120.07819"
+       y="566.25208" />
+    <rect
+       style="opacity:0.97000002;fill:#ffdf5f;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none"
+       width="23.131596"
+       height="375.01208"
+       x="596.92487"
+       y="312.23236" />
+    <text class="sub-title" y="561.61938" x="129.05188">
+      <tspan y="561.61938" x="129.05188">
+        IBU 10.7
+      </tspan>
+    </text>
+    <text class="sub-title" y="541.22284" x="129.93187">
+      <tspan y="541.22284" x="129.93187">
+        ALC 5.2%
+      </tspan>
+    </text>
+    <g transform="translate(-2.1428572,16.785697)">
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="129.74199"
+         y="598.2774">
+        <tspan x="129.74199" y="598.2774">
+          MALT
+        </tspan>
+      </text>
+      <text y="606.99329" x="129.81729"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+        <tspan y="606.99329" x="129.81729">
+          Pilsner 5.6# | 50% 
+        </tspan>
+        <tspan y="614.49329" x="129.81729">
+          German Wheat 5.6# | 50%
+        </tspan>
+      </text>
+    </g>
+    <text y="600.48962" x="127.57476"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+      <tspan y="600.48962" x="127.57476">
+        RECIPE | 6.0 GAL
+      </tspan>
+    </text>
+    <g transform="translate(-2.1559419,46.098219)">
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="129.74199"
+         y="598.2774">
+        <tspan x="129.74199" y="598.2774">
+          YEAST
+        </tspan>
+      </text>
+      <text y="606.99329" x="129.81729"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+        <tspan y="606.99329" x="129.81729">
+          Wyeast 3028 | 200 BB
+        </tspan>
+      </text>
+    </g>
+    <g transform="translate(-2.5676945,67.933223)">
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="129.74199"
+         y="598.2774">
+        <tspan
+           x="129.74199"
+           y="598.2774">
+          HOPS
+        </tspan>
+      </text>
+      <text y="606.99329" x="129.81729"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+        <tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="606.99329"
+           x="129.81729">
+          Hallertau 4.5% | 0.8oz | 60min
+        </tspan>
+      </text>
+    </g>
+    <g transform="translate(103.25762,16.432714)">
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="129.74199"
+         y="598.2774">
+        <tspan x="129.74199" y="598.2774">
+          Water
+        </tspan>
+      </text>
+      <text y="606.99329" x="129.81729"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+        <tspan y="606.99329" x="129.81729">
+          Ca 55 | Mg 3 | Na 0 | Cl 59 | SO4 62
+        </tspan>
+      </text>
+    </g>
+    <g transform="translate(103.00282,38.815001)">
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="129.74199"
+         y="598.2774">
+        <tspan
+           x="129.74199"
+           y="598.2774"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">
+          Mash
+        </tspan>
+      </text>
+      <text
+         y="606.99329"
+         x="129.81729"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve">
+        <tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="606.99329"
+           x="129.81729">
+          Ferulic Acid Rest | 110F | 10min
+        </tspan>
+        <tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="614.49329"
+           x="129.81729">
+          Sacch Rest | 152F | 80min
+        </tspan>
+      </text>
+    </g>
+    <g transform="translate(102.86032,68.577748)">
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="129.74199"
+         y="598.2774">
+        <tspan
+           x="129.74199"
+           y="598.2774"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">
+          Boil
+        </tspan>
+      </text>
+      <text
+         y="606.99329"
+         x="129.81729"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+        <tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="606.99329"
+           x="129.81729">
+          90min
+        </tspan>
+      </text>
+    </g>
+    <g
+       id="g4240-3-5"
+       transform="translate(212.68649,16.809763)">
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="129.74199"
+         y="598.2774">
+        <tspan
+           id="tspan4161-2-4-6-0-2-5"
+           x="129.74199"
+           y="598.2774"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">
+          Fermentation
+        </tspan>
+      </text>
+      <text
+         y="606.99329"
+         x="129.81729"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+        <tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="606.99329"
+           x="129.81729">
+          Day 1-7 | 62F to 64F
+        </tspan>
+        <tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="614.49329"
+           x="129.81729">
+          Day 7-10 | 64F to 55F
+        </tspan>
+        <tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="621.99329"
+           x="129.81729">
+          Day 10 - 12 | 55F - 68F
+        </tspan>
+        <tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="629.49329"
+           x="129.81729">
+          Day 12 - 24 | 68F - 70F
+        </tspan>
+      </text>
+    </g>
+    <g
+       id="g6260"
+       transform="translate(0,9.344223)">
+      <g
+         transform="matrix(1.0010319,-0.57794603,0.57794603,1.0010319,-313.51527,322.25522)"
+         id="g6031">
+        <path
+           inkscape:connector-curvature="0"
+           id="path6086"
+           d="m 540.56603,498.14853 a 57.321428,57.321428 0 0 0 -14.86812,-6.68517 l -9.75625,36.41005 a 19.604721,19.604721 0 0 1 3.68357,1.62378 19.604721,19.604721 0 0 1 3.27827,2.38437 l 26.66705,-26.66916 a 57.321428,57.321428 0 0 0 -9.00452,-7.06387 z"
+           style="opacity:0.97000002;fill:#d4aa00;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6084"
+           d="m 551.07495,506.73951 -26.66314,26.66239 a 19.604721,19.604721 0 0 1 4.01377,6.95419 l 36.46016,-9.76804 a 57.321428,57.321428 0 0 0 -13.81079,-23.84854 z"
+           style="opacity:0.97000002;fill:#d7e3f4;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6082"
+           d="m 523.62877,490.90269 a 57.321428,57.321428 0 0 0 -27.54492,-0.006 l 9.75544,36.40778 a 19.604721,19.604721 0 0 1 8.03199,0.014 l 9.75749,-36.4161 z"
+           style="opacity:0.97000002;fill:#ffcc00;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6080"
+           d="m 494.00015,491.39676 a 57.321428,57.321428 0 0 0 -23.8773,13.79419 l 26.66408,26.66412 a 19.604721,19.604721 0 0 1 6.98152,-4.00251 l -9.7683,-36.4558 z"
+           style="opacity:0.97000002;fill:#ffdd55;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6078"
+           d="m 565.38706,532.67287 -36.4068,9.75374 a 19.604721,19.604721 0 0 1 0.0132,8.03187 l 36.41948,9.75945 a 57.321428,57.321428 0 0 0 -0.0259,-27.54506 z"
+           style="opacity:0.97000002;fill:#afc6e9;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6074"
+           d="m 468.59335,506.69168 a 57.321428,57.321428 0 0 0 -13.77818,23.8919 l 36.41006,9.75626 a 19.604721,19.604721 0 0 1 1.61838,-3.66639 19.604721,19.604721 0 0 1 2.41892,-3.31471 L 468.59338,506.6917 Z"
+           style="opacity:0.97000002;fill:#ffe680;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6072"
+           d="m 564.85402,562.28363 -36.40934,-9.7536 a 19.604721,19.604721 0 0 1 -1.64345,3.74889 19.604721,19.604721 0 0 1 -2.34882,3.24016 l 26.66817,26.66874 a 57.321428,57.321428 0 0 0 13.73343,-23.9042 z"
+           style="opacity:0.97000002;fill:#87aade;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6070"
+           d="m 522.93519,561.0337 a 19.604721,19.604721 0 0 1 -6.97587,4.0396 l 9.7707,36.45944 a 57.321428,57.321428 0 0 0 23.86683,-13.83856 L 522.93519,561.0337 Z"
+           style="opacity:0.97000002;fill:#deaa87;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6068"
+           d="m 490.66798,542.40653 -36.41441,-9.75652 a 57.321428,57.321428 0 0 0 -0.004,27.58175 l 36.40511,-9.75472 a 19.604721,19.604721 0 0 1 0.0136,-8.07051 z"
+           style="opacity:0.97000002;fill:#d35f5f;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6066"
+           d="m 513.88963,565.63076 a 19.604721,19.604721 0 0 1 -8.06942,0.0118 l -9.75775,36.42046 a 57.321428,57.321428 0 0 0 27.58286,-0.0288 l -9.75569,-36.40342 z"
+           style="opacity:0.97000002;fill:#d38d5f;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6064"
+           d="m 491.20374,552.54888 -36.4558,9.7683 a 57.321428,57.321428 0 0 0 13.82366,23.89656 l 26.66144,-26.66336 a 19.604721,19.604721 0 0 1 -4.0293,-7.0015 z"
+           style="opacity:0.97000002;fill:#de8787;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="circle5067"
+           d="m 503.75134,565.09314 a 19.604721,19.604721 0 0 1 -3.73073,-1.63974 19.604721,19.604721 0 0 1 -3.27659,-2.38339 l -26.66874,26.66817 a 57.321428,57.321428 0 0 0 23.91983,13.76497 l 9.75625,-36.41005 z"
+           style="opacity:0.97000002;fill:#c87137;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <text
+           transform="matrix(0.8660254,0.5,-0.5,0.8660254,341.54174,-181.69769)"
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-1"
+           y="549.48004"
+           x="456.12509"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+             y="549.48004"
+             x="456.12509"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-8">Banana</tspan></text>
+        <text
+           transform="matrix(0.50000001,0.8660254,-0.8660254,0.50000001,341.54174,-181.69769)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="661.2912"
+           y="221.28783"
+           id="text4335-4-7-4-75"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-08"
+             sodipodi:role="line"
+             x="661.2912"
+             y="221.28783"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Clove</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="675.02826"
+           y="-165.38048"
+           id="text4335-4-7-4-0"
+           sodipodi:linespacing="100%"
+           transform="matrix(0,0.99999999,-0.99999999,0,341.54174,-181.69769)"><tspan
+             id="tspan4335-4-5-9-2"
+             sodipodi:role="line"
+             x="675.02826"
+             y="-165.38048"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Vanilla</tspan></text>
+        <text
+           transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,341.54174,-181.69769)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="492.91357"
+           y="-506.77777"
+           id="text4335-4-7-4-9"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-6"
+             sodipodi:role="line"
+             x="492.91357"
+             y="-506.77777"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Bubble Gum</tspan></text>
+        <text
+           transform="translate(341.54174,-181.69769)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="114.48734"
+           y="731.08698"
+           id="text4335-4-7-4-6"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-28"
+             sodipodi:role="line"
+             x="114.48734"
+             y="731.08698"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Pepper</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-272.10605"
+           y="717.68799"
+           id="text4335-4-7-4-2"
+           sodipodi:linespacing="100%"
+           transform="matrix(0.8660254,-0.50000001,0.50000001,0.8660254,341.54174,-181.69769)"><tspan
+             id="tspan4335-4-5-9-4"
+             sodipodi:role="line"
+             x="-272.10605"
+             y="717.68799"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Orange</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-177.27661"
+           y="716.39691"
+           id="text4335-4-7-4-61-6-5-0-0-4-9"
+           sodipodi:linespacing="100%"
+           transform="matrix(0.8660254,-0.50000001,0.50000001,0.8660254,341.54174,-181.69769)"><tspan
+             id="tspan4335-4-5-9-286-1-5-7-4-3-4"
+             sodipodi:role="line"
+             x="-177.27661"
+             y="716.39691"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Hazy</tspan></text>
+        <text
+           transform="translate(341.54174,-181.69769)"
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-61-6-5-0-0-4"
+           y="730.12677"
+           x="203.99783"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+             y="730.12677"
+             x="203.99783"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-286-1-5-7-4-3">Copper</tspan></text>
+        <text
+           transform="matrix(0.8660254,0.5,-0.5,0.8660254,341.54174,-181.69769)"
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-61-6-5-0-0-4-9-5-5"
+           y="549.07611"
+           x="552.32892"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+             y="549.07611"
+             x="552.32892"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-286-1-5-7-4-3-4-4-2">Gold</tspan></text>
+        <text
+           transform="matrix(0.50000001,0.8660254,-0.8660254,0.50000001,341.54174,-181.69769)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="754.01648"
+           y="220.903"
+           id="text4335-4-7-4-61-2"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-286-8"
+             sodipodi:role="line"
+             x="754.01648"
+             y="220.903"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Bread</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="766.09357"
+           y="-165.79027"
+           id="text4335-4-7-4-62-3"
+           sodipodi:linespacing="100%"
+           transform="matrix(0,0.99999999,-0.99999999,0,341.54174,-181.69769)"><tspan
+             id="tspan4335-4-5-9-05-9"
+             sodipodi:role="line"
+             x="766.09357"
+             y="-165.79027"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Cereal</tspan></text>
+        <text
+           transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,341.54174,-181.69769)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="584.00281"
+           y="-507.2804"
+           id="text4335-4-7-4-61-9-0"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-286-3-4"
+             sodipodi:role="line"
+             x="584.00281"
+             y="-507.2804"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Grainy</tspan></text>
+        <text
+           transform="matrix(0.8660254,0.5,-0.5,0.8660254,0,0)"
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-61-6-5-0-0-4-9-5-5-4"
+           y="215.06761"
+           x="706.77057"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+             y="215.06761"
+             x="706.77057"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-286-1-5-7-4-3-4-4-2-8">Aroma</tspan></text>
+        <text
+           transform="matrix(0.8660254,0.5,-0.5,0.8660254,0,0)"
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-61-6-5-0-0-4-9-5-5-40"
+           y="224.46306"
+           x="700.95135"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+             y="224.46306"
+             x="700.95135"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-286-1-5-7-4-3-4-4-2-4">Appearance</tspan></text>
+      </g>
+      <g
+         transform="matrix(0.98821932,-0.57054869,0.57054869,0.98821932,-303.49932,156.16676)"
+         id="g6031-9">
+        <path
+           inkscape:connector-curvature="0"
+           id="path6086-3"
+           d="m 540.56603,498.14853 a 57.321428,57.321428 0 0 0 -14.86812,-6.68517 l -9.75625,36.41005 a 19.604721,19.604721 0 0 1 3.68357,1.62378 19.604721,19.604721 0 0 1 3.27827,2.38437 l 26.66705,-26.66916 a 57.321428,57.321428 0 0 0 -9.00452,-7.06387 z"
+           style="opacity:0.97000002;fill:#d4aa00;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6084-3"
+           d="m 551.07495,506.73951 -26.66314,26.66239 a 19.604721,19.604721 0 0 1 4.01377,6.95419 l 36.46016,-9.76804 a 57.321428,57.321428 0 0 0 -13.81079,-23.84854 z"
+           style="opacity:0.97000002;fill:#eef4d7;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6082-7"
+           d="m 523.62877,490.90269 a 57.321428,57.321428 0 0 0 -27.54492,-0.006 l 9.75544,36.40778 a 19.604721,19.604721 0 0 1 8.03199,0.014 l 9.75749,-36.4161 z"
+           style="opacity:0.97000002;fill:#ffcc00;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6080-9"
+           d="m 494.00015,491.39676 a 57.321428,57.321428 0 0 0 -23.8773,13.79419 l 26.66408,26.66412 a 19.604721,19.604721 0 0 1 6.98152,-4.00251 l -9.7683,-36.4558 z"
+           style="opacity:0.97000002;fill:#ffd42a;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6078-6"
+           d="m 565.38706,532.67287 -36.4068,9.75374 a 19.604721,19.604721 0 0 1 0.0132,8.03187 l 36.41948,9.75945 a 57.321428,57.321428 0 0 0 -0.0259,-27.54506 z"
+           style="opacity:0.97000002;fill:#dde9af;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6074-3"
+           d="m 468.59335,506.69168 a 57.321428,57.321428 0 0 0 -13.77818,23.8919 l 36.41006,9.75626 a 19.604721,19.604721 0 0 1 1.61838,-3.66639 19.604721,19.604721 0 0 1 2.41892,-3.31471 L 468.59338,506.6917 Z"
+           style="opacity:0.97000002;fill:#ffe680;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6072-7"
+           d="m 564.85402,562.28363 -36.40934,-9.7536 a 19.604721,19.604721 0 0 1 -1.64345,3.74889 19.604721,19.604721 0 0 1 -2.34882,3.24016 l 26.66817,26.66874 a 57.321428,57.321428 0 0 0 13.73343,-23.9042 z"
+           style="opacity:0.97000002;fill:#cdde87;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6070-8"
+           d="m 522.93519,561.0337 a 19.604721,19.604721 0 0 1 -6.97587,4.0396 l 9.7707,36.45944 a 57.321428,57.321428 0 0 0 23.86683,-13.83856 L 522.93519,561.0337 Z"
+           style="opacity:0.97000002;fill:#bcd35f;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6068-2"
+           d="m 490.66798,542.40653 -36.41441,-9.75652 a 57.321428,57.321428 0 0 0 -0.004,27.58175 l 36.40511,-9.75472 a 19.604721,19.604721 0 0 1 0.0136,-8.07051 z"
+           style="opacity:0.97000002;fill:#ffeeaa;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6066-7"
+           d="m 513.88963,565.63076 a 19.604721,19.604721 0 0 1 -8.06942,0.0118 l -9.75775,36.42046 a 57.321428,57.321428 0 0 0 27.58286,-0.0288 l -9.75569,-36.40342 z"
+           style="opacity:0.97000002;fill:#abc837;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6064-6"
+           d="m 491.20374,552.54888 -36.4558,9.7683 a 57.321428,57.321428 0 0 0 13.82366,23.89656 l 26.66144,-26.66336 a 19.604721,19.604721 0 0 1 -4.0293,-7.0015 z"
+           style="opacity:0.97000002;fill:#decd87;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="circle5067-3"
+           d="m 503.75134,565.09314 a 19.604721,19.604721 0 0 1 -3.73073,-1.63974 19.604721,19.604721 0 0 1 -3.27659,-2.38339 l -26.66874,26.66817 a 57.321428,57.321428 0 0 0 23.91983,13.76497 l 9.75625,-36.41005 z"
+           style="opacity:0.97000002;fill:#e9ddaf;fill-opacity:1;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none" />
+        <text
+           transform="matrix(0.8660254,0.5,-0.5,0.8660254,341.54174,-181.69769)"
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-1-9"
+           y="549.48004"
+           x="456.12509"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+             y="549.48004"
+             x="456.12509"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-8-2">Banana</tspan></text>
+        <text
+           transform="matrix(0.50000001,0.8660254,-0.8660254,0.50000001,341.54174,-181.69769)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="661.2912"
+           y="221.28783"
+           id="text4335-4-7-4-75-7"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-08-5"
+             sodipodi:role="line"
+             x="661.2912"
+             y="221.28783"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Clove</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="675.02826"
+           y="-165.38048"
+           id="text4335-4-7-4-0-7"
+           sodipodi:linespacing="100%"
+           transform="matrix(0,0.99999999,-0.99999999,0,341.54174,-181.69769)"><tspan
+             id="tspan4335-4-5-9-2-8"
+             sodipodi:role="line"
+             x="675.02826"
+             y="-165.38048"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Lemon</tspan></text>
+        <text
+           transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,341.54174,-181.69769)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="492.91357"
+           y="-506.77777"
+           id="text4335-4-7-4-9-3"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-6-3"
+             sodipodi:role="line"
+             x="492.91357"
+             y="-506.77777"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Cinnamon</tspan></text>
+        <text
+           transform="translate(341.54174,-181.69769)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="114.48734"
+           y="731.08698"
+           id="text4335-4-7-4-6-8"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-28-3"
+             sodipodi:role="line"
+             x="114.48734"
+             y="731.08698"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Citrus</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-272.10605"
+           y="717.68799"
+           id="text4335-4-7-4-2-0"
+           sodipodi:linespacing="100%"
+           transform="matrix(0.8660254,-0.50000001,0.50000001,0.8660254,341.54174,-181.69769)"><tspan
+             id="tspan4335-4-5-9-4-5"
+             sodipodi:role="line"
+             x="-272.10605"
+             y="717.68799"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Toasted</tspan></text>
+        <text
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-61-6-5-0-0-4-4"
+           y="548.42908"
+           x="563.30743"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;writing-mode:lr-tb;text-anchor:end"
+             y="548.42908"
+             x="563.30743"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-286-1-5-7-4-3-3">Creamy</tspan></text>
+        <text
+           transform="matrix(0.8660254,0.5,-0.5,0.8660254,0,0)"
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-61-6-5-0-0-4-9-5-5-0"
+           y="220.95042"
+           x="767.79962"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;writing-mode:lr-tb;text-anchor:end"
+             y="220.95042"
+             x="767.79962"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-286-1-5-7-4-3-4-4-2-7">Effervescent</tspan></text>
+        <text
+           transform="matrix(0.50000001,0.8660254,-0.8660254,0.50000001,0,0)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="781.89685"
+           y="-165.72968"
+           id="text4335-4-7-4-61-2-3"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-286-8-1"
+             sodipodi:role="line"
+             x="781.89685"
+             y="-165.72968"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;writing-mode:lr-tb;text-anchor:end">Rich</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="600.11017"
+           y="-507.332"
+           id="text4335-4-7-4-62-3-5"
+           sodipodi:linespacing="100%"
+           transform="matrix(0,1,-1,0,0,0)"><tspan
+             id="tspan4335-4-5-9-05-9-5"
+             sodipodi:role="line"
+             x="600.11017"
+             y="-507.332"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;writing-mode:lr-tb;text-anchor:end">Refreshing</tspan></text>
+        <text
+           transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,0,0)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="271.76999"
+           y="-712.21539"
+           id="text4335-4-7-4-61-9-0-0"
+           sodipodi:linespacing="100%"><tspan
+             id="tspan4335-4-5-9-286-3-4-0"
+             sodipodi:role="line"
+             x="271.76999"
+             y="-712.21539"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;writing-mode:lr-tb;text-anchor:end">Caramel</tspan></text>
+        <text
+           transform="matrix(0.8660254,0.5,-0.5,0.8660254,0,0)"
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-61-6-5-0-0-4-9-5-5-4-6"
+           y="215.06761"
+           x="707.08624"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+             y="215.06761"
+             x="707.08624"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-286-1-5-7-4-3-4-4-2-8-4">Flavor</tspan></text>
+        <text
+           transform="matrix(0.8660254,0.5,-0.5,0.8660254,0,0)"
+           sodipodi:linespacing="100%"
+           id="text4335-4-7-4-61-6-5-0-0-4-9-5-5-40-5"
+           y="224.21053"
+           x="702.78223"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+             y="224.21053"
+             x="702.78223"
+             sodipodi:role="line"
+             id="tspan4335-4-5-9-286-1-5-7-4-3-4-4-2-4-1">Mouthfeel</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:0.97647059;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="221.85606"
+           y="729.81299"
+           id="text4335-4-7-4-61-6-5-0-0-4-9-55"
+           sodipodi:linespacing="100%"
+           transform="matrix(0.8660254,-0.50000001,0.50000001,0.8660254,0,0)"><tspan
+             id="tspan4335-4-5-9-286-1-5-7-4-3-4-8"
+             sodipodi:role="line"
+             x="221.85606"
+             y="729.81299"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:100%;font-family:Oswald;-inkscape-font-specification:'Oswald, Light';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:0.97647059">Fluffy</tspan></text>
+      </g>
+    </g>
+  </g>
+  </svg>
+</template>
+<script>
+export default {
+  name: 'default-template',
+};
+</script>
+
+<style>
+.title {
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  font-stretch:normal;
+  font-size:50px;
+  line-height:125%;
+  font-family:'Fjalla One';
+  -inkscape-font-specification:'Fjalla One, Normal';
+  text-align:start;
+  letter-spacing:0px;
+  word-spacing:0px;
+  writing-mode:lr-tb;
+  text-anchor:start;
+  fill:#000000;
+  fill-opacity:1;
+  stroke:none;
+  stroke-width:1px;
+  stroke-linecap:butt;
+  stroke-linejoin:miter;
+  stroke-opacity:1;
+}
+
+.sub-title {
+  font-style:normal;
+  font-variant:normal;
+  font-weight:300;
+  font-stretch:normal;
+  font-size:20px;
+  line-height:125%;
+  font-family:Oswald;
+  -inkscape-font-specification:'Oswald, Light';
+  text-align:start;
+  letter-spacing:0px;
+  word-spacing:0px;
+  writing-mode:lr-tb;
+  text-anchor:start;
+  fill:#000000;
+  fill-opacity:1;
+  stroke:none;
+  stroke-width:1px;
+  stroke-linecap:butt;
+  stroke-linejoin:miter;
+  stroke-opacity:1;
+}
+
+</style>
