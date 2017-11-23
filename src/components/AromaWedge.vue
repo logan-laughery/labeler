@@ -8,13 +8,15 @@
           l -9.75775,36.42046
           a 57.321428,57.321428 0 0 0 27.58286,-0.0288
           l -9.75569,-36.40342 z" 
-        style="opacity: 0.97; fill: rgb(211, 141, 95); fill-opacity: 1; stroke-width: 1.9; stroke-miterlimit: 4; stroke-dasharray: none;">
+        class="aroma-wedge"
+        :style="{ fill: fillColor }">
       </path>
-      <text x="0" y="0" 
-        transform="rotate(270) translate(-35,15.9)" 
-          style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 300; font-stretch: normal; font-size: 7.5px; line-height: 100%; font-family: Oswald; text-align: start; letter-spacing: 0px; word-spacing: 0px; writing-mode: lr-tb; text-anchor: start; fill: rgb(0, 0, 0); fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;">
+      <text x="0" y="0"
+        class="aroma-wedge-text" 
+        :class="{ flip: flipText }" 
+        :transform="textTransform">
         <tspan>
-          Cereal
+          {{ text }}  
         </tspan>
       </text>
     </g>
@@ -25,8 +27,51 @@
 <script>
 export default {
   name: 'aroma-wedge',
+  props: {
+    flipText: Boolean,
+    text: {
+      type: String,
+      default: 'Default',
+    },
+    fillColor: {
+      type: String,
+      default: '#8aacdf',
+    },
+  },
+  computed: {
+    textTransform() {
+      if (this.flipText) {
+        return 'rotate(90) translate(35,-11)';
+      }
+      return 'rotate(270) translate(-35,15.9)';
+    },
+  },
 };
 </script>
 
-<style>
+<style lang="scss">
+.aroma-wedge-text {
+  font-style: normal; 
+  font-variant-ligatures: normal;
+  font-weight: 300;
+  font-size: 7.5px;
+  font-family: Oswald;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  fill: rgb(0, 0, 0);
+  fill-opacity: 1;
+}
+
+.aroma-wedge-text.flip {
+  text-anchor: end;
+}
+
+.aroma-wedge {
+  opacity: 0.97;
+  fill: rgb(211, 141, 95);
+  fill-opacity: 1;
+  stroke-width: 1.9;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+}
 </style>
