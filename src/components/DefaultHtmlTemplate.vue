@@ -25,8 +25,13 @@
     <svg id="bar2" width="24px" height="400px">
       <rect class="bar" width="24" height="400"/>
     </svg>
-    <aroma-wheel id="top-wheel" :wedges="model.topWheel"/>
-    <aroma-wheel id="bottom-wheel" :wedges="model.bottomWheel"/>
+    <aroma-wheel id="top-wheel" 
+      :wedges="model.topWheel.wheel"
+      :topText="model.topWheel.topText"
+      :bottomText="model.topWheel.bottomText"/>
+    <aroma-wheel id="bottom-wheel" :wedges="model.bottomWheel.wheel"
+      :topText="model.bottomWheel.topText"
+      :bottomText="model.bottomWheel.bottomText"/>
     <instructions id="instructions" :size="model.size"
       :columns="model.instructions"/>
   </div>
@@ -46,39 +51,47 @@ export default {
       type: Object,
       default() {
         return {
-          title: 'STYLE',
+          title: 'DEFAULT STYLE',
           subTitle: 'DESCRIPTOR',
           version: 'v1.0.0',
           alcohol: 'ALC 9.0%',
           ibu: 'IBU 90',
-          topWheel: [
-            { color: '#ffcd08', text: 'Flavor1' },
-            { color: '#ffcd08', text: 'Flavor2' },
-            { color: '#ffcd08', text: 'Flavor3' },
-            { color: '#ffcd08', text: 'Flavor4' },
-            { color: '#ffcd08', text: 'Flavor5' },
-            { color: '#ffcd08', text: 'Flavor6' },
-            { color: '#ffcd08', text: 'Flavor7' },
-            { color: '#ffcd08', text: 'Flavor8' },
-            { color: '#ffcd08', text: 'Flavor9' },
-            { color: '#ffcd08', text: 'Flavor10' },
-            { color: '#ffcd08', text: 'Flavor11' },
-            { color: '#ffcd08', text: 'Flavor12' },
-          ],
-          bottomWheel: [
-            { color: '#ffcd08', text: 'Aroma1' },
-            { color: '#ffcd08', text: 'Aroma2' },
-            { color: '#ffcd08', text: 'Aroma3' },
-            { color: '#ffcd08', text: 'Aroma4' },
-            { color: '#ffcd08', text: 'Aroma5' },
-            { color: '#ffcd08', text: 'Aroma6' },
-            { color: '#ffcd08', text: 'Aroma7' },
-            { color: '#ffcd08', text: 'Aroma8' },
-            { color: '#ffcd08', text: 'Aroma9' },
-            { color: '#ffcd08', text: 'Aroma10' },
-            { color: '#ffcd08', text: 'Aroma11' },
-            { color: '#ffcd08', text: 'Aroma12' },
-          ],
+          topWheel: {
+            topText: 'Top',
+            bottomText: 'Bottom',
+            wheel: [
+              { color: '#ffcd08', text: 'Flavor1' },
+              { color: '#ffcd08', text: 'Flavor2' },
+              { color: '#ffcd08', text: 'Flavor3' },
+              { color: '#ffcd08', text: 'Flavor4' },
+              { color: '#ffcd08', text: 'Flavor5' },
+              { color: '#ffcd08', text: 'Flavor6' },
+              { color: '#ffcd08', text: 'Flavor7' },
+              { color: '#ffcd08', text: 'Flavor8' },
+              { color: '#ffcd08', text: 'Flavor9' },
+              { color: '#ffcd08', text: 'Flavor10' },
+              { color: '#ffcd08', text: 'Flavor11' },
+              { color: '#ffcd08', text: 'Flavor12' },
+            ],
+          },
+          bottomWheel: {
+            topText: 'Top',
+            bottomText: 'Bottom',
+            wheel: [
+              { color: '#ffcd08', text: 'Aroma1' },
+              { color: '#ffcd08', text: 'Aroma2' },
+              { color: '#ffcd08', text: 'Aroma3' },
+              { color: '#ffcd08', text: 'Aroma4' },
+              { color: '#ffcd08', text: 'Aroma5' },
+              { color: '#ffcd08', text: 'Aroma6' },
+              { color: '#ffcd08', text: 'Aroma7' },
+              { color: '#ffcd08', text: 'Aroma8' },
+              { color: '#ffcd08', text: 'Aroma9' },
+              { color: '#ffcd08', text: 'Aroma10' },
+              { color: '#ffcd08', text: 'Aroma11' },
+              { color: '#ffcd08', text: 'Aroma12' },
+            ],
+          },
           instructions: [
             [
               { title: 'SECTION', content: 'Content' },

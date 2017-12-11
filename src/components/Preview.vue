@@ -2,7 +2,7 @@
   <md-layout class="preview">
     <interaction>
       <imager>
-        <default-html-template class="md-whiteframe-2dp"/>
+        <default-html-template :model="model.template" class="md-whiteframe-2dp"/>
       </imager>
     </interaction>
   </md-layout>
@@ -51,8 +51,7 @@ export default {
   .preview {
     justify-content: center;
     height: 100%;
+    width: 100%;
     align-items: center;
-    margin-top: -66px;
-    padding-top: 64px;
   }
 </style>

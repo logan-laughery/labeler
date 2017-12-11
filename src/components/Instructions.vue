@@ -4,9 +4,9 @@
       {{ size }}
     </md-layout>
     <md-layout>
-      <md-layout md-flex="33" v-for="column in columns">
+      <md-layout md-flex="33" v-for="(column, index) in columns">
         <md-layout md-flex="100"
-          v-for="section in column">
+          v-for="(section, subIndex) in column">
           <div class="section">
             <div class="section-title">
             {{ section.title }}
@@ -30,7 +30,7 @@ export default {
       default: 'RECIPE | 5.5 GAL',
     },
     columns: {
-      type: Object,
+      type: Array,
       default() {
         return [
           [{

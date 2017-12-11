@@ -23,7 +23,7 @@ export default {
   },
   props: {
     wedges: {
-      type: Object,
+      type: Array,
       default() {
         return [
           { color: '#ffcd08', text: 'Test' },
