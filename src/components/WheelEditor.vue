@@ -4,28 +4,22 @@
       <h2 class="md-title">Wheel</h2>
     </div>
     <md-card-content>
-      <md-table>
-        <md-table-header>
-          <md-table-row>
-            <md-table-head>Name</md-table-head>
-            <md-table-head>Color</md-table-head>
-          </md-table-row>
-        </md-table-header>
-        <md-table-body>
-          <md-table-row v-for="(wedge, index) in wheel">
-            <md-table-cell>
-              <md-input-container md-inline>
-                <label>Text</label>
-                <md-input v-model="wedge.text" />
-              </md-input-container>   
-            </md-table-cell>
-            <md-table-cell>
-              color
-              <color-picker/>
-            </md-table-cell>
-          </md-table-row>
-        </md-table-body>
-      </md-table>
+        <md-layout md-row v-for="(wedge, index) in wheel"
+          class="editor-row">
+          <md-layout class="left-col">
+            <md-input-container md-inline>
+              <label>Text</label>
+              <md-input v-model="wedge.text" />
+            </md-input-container>
+          </md-layout>
+          <md-layout class="right-col">
+            <color-picker v-model="wedge.color"/>
+            <md-input-container md-inline>
+              <label>Color</label>
+              <md-input v-model="wedge.color" />
+            </md-input-container>
+          </md-layout>
+        </md-layout>
     </md-card-content>
   </md-card>
 </template>
@@ -43,6 +37,27 @@ export default {
 </script>
 
 <style scoped>
+.editor-row {
+  margin-bottom: 5px;
+}
+
+.left-col {
+  min-width: 180px;
+  max-width: 50%;
+}
+
+.left-col .md-input-container {
+  margin-right: 20px;
+}
+
+.right-col .md-input-container {
+  width: calc(100% - 20px);
+}
+
+.right-col {
+  flex: 1;
+}
+
 .md-input-container {
   margin: 0px;
   padding: 0px;
@@ -57,5 +72,9 @@ export default {
 .md-input-container label {
   font-size: 13px !important;
   line-height: 18px !important;
+}
+
+.md-card {
+  overflow: visible;
 }
 </style>

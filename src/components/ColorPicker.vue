@@ -1,8 +1,10 @@
 <template>
   <div class="color-picker">  
     <chrome-picker class="picker"
-      v-model="color"
-      v-if="displayPicker"/>
+      :value="color"
+      @input="updateValue"
+      v-if="displayPicker"
+      v-click-outside="clickOutside"/>
     <div class="swatch"
       :style="{ background: hex }"      
       v-on:click="toggleDisplay">
@@ -19,7 +21,7 @@ export default {
     'chrome-picker': Chrome,
   },
   props: {
-    hex: {
+    value: {
       type: String,
       default: '#00000',
     },
@@ -30,36 +32,69 @@ export default {
     },
   },
   methods: {
+    clickOutside() {
+      if (this.displayPicker) {
+        this.displayPicker = false;
+      }
+    },
     toggleDisplay() {
       this.displayPicker = !this.displayPicker;
+    },
+    updateValue(value) {
+      this.hex = value.hex;
+      this.$emit('input', this.hex);
     },
   },
   data() {
     return {
       displayPicker: false,
+      hex: this.value,
     };
+  },
+  directives: {
+    'click-outside': {
+      bind: (el, binding, vnode) => {
+        el.event = (event) => { // eslint-disable-line no-param-reassign
+          if (!(el === event.target || el.contains(event.target))) {
+            vnode.context[binding.expression](event);
+          }
+        };
+        document.body.addEventListener('click', el.event);
+      },
+      unbind: (el) => {
+        document.body.removeEventListener('click', el.event);
+      },
+    },
   },
 };
 </script>
 
 <style>
 .color-picker {
-  height: 10px;
-  width: 10px;
+  margin-top: 11px;
+  margin-right: 6px;
+  height: 14px;
+  width: 14px;
+  position: relative;
 }
 
 .picker {
   position: absolute;
   z-index: 999;
-  right: 38px;
-  bottom: 0;
+  right: 12px;
+  top: 0;
+  margin-bottom: 10px;
+}
+
+.picker.vc-chrome {
+  width: 175px;
 }
 
 .swatch {
   border-style: solid;
   border-width: 1px;
   border-color: #455a64;
-  height: 10px;
-  width: 10px;
+  height: 14px;
+  width: 14px;
 }
 </style>

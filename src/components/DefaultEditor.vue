@@ -13,7 +13,7 @@
         <wheel-editor :wheel="content.topWheel.wheel"/> 
       </md-tab>
       <md-tab id="tab-bottom-wheel" md-label="Bottom Wheel">
-        Bottom Wheel 
+        <wheel-editor :wheel="content.bottomWheel.wheel"/> 
       </md-tab>
     </md-tabs>
   </div>
