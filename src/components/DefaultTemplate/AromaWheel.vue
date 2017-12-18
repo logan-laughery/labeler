@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import AromaWedge from '@/components/AromaWedge';
+import AromaWedge from '@/components/DefaultTemplate/AromaWedge';
 
 export default {
   name: 'aroma-wheel',

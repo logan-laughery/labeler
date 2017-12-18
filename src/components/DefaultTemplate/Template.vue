@@ -20,10 +20,12 @@
     </div>
     </div>
     <svg id="bar1" width="323px" height="24px">
-      <rect class="bar" width="323" height="24"/>
+      <rect class="bar" width="323" height="24"
+        :style="{ fill: model.color }"/>
     </svg>
     <svg id="bar2" width="24px" height="400px">
-      <rect class="bar" width="24" height="400"/>
+      <rect class="bar" width="24" height="400"
+        :style="{ fill: model.color }"/>
     </svg>
     <aroma-wheel id="top-wheel" 
       :wedges="model.topWheel.wheel"
@@ -37,11 +39,11 @@
   </div>
 </template>
 <script>
-import AromaWheel from '@/components/AromaWheel';
-import Instructions from '@/components/Instructions';
+import AromaWheel from '@/components/DefaultTemplate/AromaWheel';
+import Instructions from '@/components/DefaultTemplate/Instructions';
 
 export default {
-  name: 'default-html-template',
+  name: 'default-template',
   components: {
     AromaWheel,
     Instructions,
@@ -56,6 +58,7 @@ export default {
           version: 'v1.0.0',
           alcohol: 'ALC 9.0%',
           ibu: 'IBU 90',
+          color: '#ffcd08',
           topWheel: {
             topText: 'Top',
             bottomText: 'Bottom',

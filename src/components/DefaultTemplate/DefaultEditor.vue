@@ -20,9 +20,9 @@
 </template>
 
 <script>
-import GeneralEditor from '@/components/GeneralEditor';
-import InstructionEditor from '@/components/InstructionEditor';
-import WheelEditor from '@/components/WheelEditor';
+import GeneralEditor from '@/components/DefaultTemplate/GeneralEditor';
+import InstructionEditor from '@/components/DefaultTemplate/InstructionEditor';
+import WheelEditor from '@/components/DefaultTemplate/WheelEditor';
 
 export default {
   name: 'default-editor',

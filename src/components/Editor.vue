@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import DefaultEditor from '@/components/DefaultEditor';
+import DefaultEditor from '@/components/DefaultTemplate/DefaultEditor';
 
 export default {
   name: 'editor',

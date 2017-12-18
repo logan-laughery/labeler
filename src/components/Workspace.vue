@@ -12,7 +12,7 @@
 <script>
 import Preview from '@/components/Preview';
 import Editor from '@/components/Editor';
-import DefaultTemplateData from '../assets/DefaultTemplate';
+import DefaultTemplateData from '@/components/DefaultTemplate/assets/Demo';
 
 export default {
   name: 'workspace',

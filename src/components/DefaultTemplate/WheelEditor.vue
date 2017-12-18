@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import ColorPicker from '@/components/ColorPicker';
+import ColorPicker from '@/components/Utils/ColorPicker';
 
 export default {
   name: 'wheel-editor',

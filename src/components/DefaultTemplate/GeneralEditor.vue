@@ -4,6 +4,13 @@
       <h2 class="md-title">General</h2>
     </div>
     <md-card-content>
+      <md-layout>
+        <md-input-container class="color-input">
+          <label>Color</label>
+          <md-input v-model="content.color"/>
+        </md-input-container>
+        <color-picker v-model="content.color" class="color-picker"/>
+      </md-layout>
       <md-input-container>
         <label>Title</label>
         <md-textarea v-model="content.title"></md-textarea>
@@ -29,11 +36,24 @@
 </template>
 
 <script>
+import ColorPicker from '@/components/Utils/ColorPicker';
+
 export default {
   name: 'general-editor',
   props: ['content'],
+  components: {
+    ColorPicker,
+  },
 };
 </script>
 
-<style>
+<style scoped>
+.color-input {
+  width: calc(100% - 26px);
+}
+
+.color-picker {
+  margin-left: 6px;
+  margin-top: 28px;
+}
 </style>
