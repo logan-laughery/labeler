@@ -18,7 +18,7 @@ export default {
   name: 'title-bar',
   props: ['title'],
   methods: {
-    menuClick: () => {
+    menuClick() {
       this.$emit('menu-click');
     },
   },

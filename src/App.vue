@@ -1,29 +1,34 @@
 <template>
   <div id="container">
     <title-bar 
-      v-on:menu-click="test" 
-      v-bind:title="title"/>
-      <workspace/> 
+      v-bind:title="title"
+      v-on:menu-click="toggleSidebar"/>
+    <side-bar v-model="sidebarIsOpen"/>
+    <workspace/>
   </div>
 </template>
 
 <script>
-import TitleBar from '@/components/TitleBar';
+import TitleBar from '@/components/Layout/TitleBar';
 import Workspace from '@/components/Workspace';
+import SideBar from '@/components/Layout/SideBar';
 
 export default {
   name: 'app',
   components: {
     TitleBar,
     Workspace,
+    SideBar,
   },
   data() {
     return {
       title: 'Labeler',
+      sidebarIsOpen: false,
     };
   },
   methods: {
-    test: () => {
+    toggleSidebar() {
+      this.sidebarIsOpen = !this.sidebarIsOpen;
     },
   },
 };
