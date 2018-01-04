@@ -6,7 +6,7 @@
                  :fillColor="wedge.color"
                  :text="wedge.text"
                  class="wedge"/>
-    <div id="center"> 
+    <div id="center">
       <span class="center-text">{{ topText }}</span>
       <span class="center-text">{{ bottomText }}</span>
     </div>
@@ -66,7 +66,7 @@ export default {
 
     @for $i from 1 through $item-count {
       &:nth-of-type(#{$i}) {
-        transform: rotate($rot * 1deg) translate($circle-size / 2) 
+        transform: rotate($rot * 1deg) translate($circle-size / 2)
           rotate(-90deg);
       }
 
@@ -95,7 +95,7 @@ export default {
   align-items: center;
   justify-content: center;
   left: 47px;
-  top: 47px;
+  top: 45px;
   position: absolute;
   flex-direction: column;
 }

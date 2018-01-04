@@ -4,9 +4,10 @@
       {{ size }}
     </md-layout>
     <md-layout>
-      <md-layout md-flex="33" v-for="(column, index) in columns">
+      <md-layout md-flex="33" v-for="(column, index) in columns"
+        :key="index">
         <md-layout md-flex="100"
-          v-for="(section, subIndex) in column">
+          v-for="(section, subindex) in column" :key="subindex">
           <div class="section">
             <div class="section-title">
             {{ section.title }}

@@ -5,6 +5,7 @@
     </div>
     <md-card-content>
         <md-layout md-row v-for="(wedge, index) in wheel"
+          :key="index"
           class="editor-row">
           <md-layout class="left-col">
             <md-input-container md-inline>
