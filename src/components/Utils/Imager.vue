@@ -11,28 +11,15 @@
 
 <script>
 import DomToImage from 'dom-to-image';
+import fileDownload from 'js-file-download';
 import axios from 'axios';
 
 // https://github.com/axios/axios/issues/448
-function saveFile(data, filename, mime) {
-  const blob = new Blob([data], { type: mime || 'application/octet-stream' });
-  if (typeof window.navigator.msSaveBlob !== 'undefined') {
-    window.navigator.msSaveBlob(blob, filename);
-  } else {
-    const blobURL = window.URL.createObjectURL(blob);
-    const tempLink = document.createElement('a');
-    tempLink.style.display = 'none';
-    tempLink.href = blobURL;
-    tempLink.setAttribute('download', filename);
-    if (typeof tempLink.download === 'undefined') {
-      tempLink.setAttribute('target', '_blank');
-    }
+function saveFile(res) {
+  const disposition = res.headers['content-disposition'];
+  const filename = decodeURI(disposition.match(/filename=(.*)/)[1]);
 
-    document.body.appendChild(tempLink);
-    tempLink.click();
-    document.body.removeChild(tempLink);
-    window.URL.revokeObjectURL(blobURL);
-  }
+  fileDownload(res.data, filename);
 }
 
 export default {
@@ -73,10 +60,7 @@ export default {
               image: pngUrl,
             }, headers)
             .then((response) => {
-              saveFile(response, 'filename.pdf');
-              const img = new Image();
-              img.src = pngUrl;
-              document.body.appendChild(img);
+              saveFile(response);
             })
             .catch((error) => {
               console.log(error); // eslint-disable-line no-console
