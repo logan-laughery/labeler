@@ -3,8 +3,9 @@
     v-on:click="saveAsImage"
   >
     <slot></slot> 
-    <div id="svg-hider">    
-      <img id="svg-holder" v-bind:src="svgData"></img>
+    <div id="hidder">    
+      <div id="hiddenImageHolder">
+      </div>
     </div>
   </div>
 </template>
@@ -35,36 +36,63 @@ export default {
     };
   },
   methods: {
+    sendToServer(pngUrl) {
+      const headers = {
+        'Access-Control-Allow-Origin': '*',
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+        responseType: 'arraybuffer',
+      };
+
+      axios.post(process.env.PDF_GENERATOR_URL, {
+        image: pngUrl,
+      }, headers)
+      .then((response) => {
+        saveFile(response);
+      })
+      .catch((error) => {
+        console.log(error); // eslint-disable-line no-console
+      });
+    },
     saveAsImage() {
+      const that = this;
+      if (document.contains(document.getElementById('hiddenImageHolder'))) {
+        while (document.getElementById('hiddenImageHolder').firstChild) {
+          document.getElementById('hiddenImageHolder').removeChild(document.getElementById('hiddenImageHolder').firstChild);
+        }
+      }
+
+      console.log('Handling click'); // eslint-disable-line no-console
+      const tester = document.getElementById('imager').cloneNode(true);
+      tester.id = 'image-dup';
+      tester.style = 'display: inline-block;';
+      document.getElementById('hiddenImageHolder').appendChild(tester);
+      const scaleAmount = 4;
+      tester.style.height = tester.firstElementChild.clientHeight * scaleAmount;
+      tester.style.width = tester.firstElementChild.clientWidth * scaleAmount;
+      tester.firstElementChild.style = `transform:scale(${scaleAmount}); display: inline-block; transform-origin: top left;`;
+      tester.firstElementChild.style.backgroundColor = 'white';
+      DomToImage.toPng(document.getElementById('image-dup'), { style: { display: 'block' } })
+        .then((dataUrl) => {
+          const img = new Image();
+          img.id = 'test';
+          img.src = dataUrl;
+          document.body.appendChild(img); // eslint-disable-line no-console
+          that.sendToServer(dataUrl);
+        })
+        .catch((error) => {
+          console.log(error); // eslint-disable-line no-console
+        });
+    },
+    saveAsImage2() {
       const that = this;
       console.log('Handling click'); // eslint-disable-line no-console
       DomToImage.toSvg(document.getElementById('imager').firstElementChild)
         .then((dataUrl) => {
           that.svg = dataUrl;
-          // (/height="[0-9]*"/, 'height="100%"')
-          // .replace(/width="[0-9]*"/, 'width="100k"');
-          // const img = new Image();
-          // img.src = dataUrl;
-          // img.style.width = '2000px';
-          // document.body.appendChild(img);
           DomToImage.toPng(document.getElementById('svg-holder'), { style: { display: 'block' } })
           .then((pngUrl) => {
-            const headers = {
-              'Access-Control-Allow-Origin': '*',
-              Accept: 'application/json',
-              'Content-Type': 'application/json',
-              responseType: 'arraybuffer',
-            };
-
-            axios.post(process.env.PDF_GENERATOR_URL, {
-              image: pngUrl,
-            }, headers)
-            .then((response) => {
-              saveFile(response);
-            })
-            .catch((error) => {
-              console.log(error); // eslint-disable-line no-console
-            });
+            that.sendToServer(pngUrl);
           });
         })
         .catch((error) => {
@@ -75,13 +103,11 @@ export default {
 };
 </script>
 
-<style>
-#svg-hider {
+<style scoped>
+#hidder {
   height: 0px;
+  width: 0px;
   overflow: hidden;
   position: absolute;
-}
-
-#svg-holder {
 }
 </style>
