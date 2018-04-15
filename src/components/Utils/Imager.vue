@@ -77,7 +77,7 @@ export default {
           const img = new Image();
           img.id = 'test';
           img.src = dataUrl;
-          document.body.appendChild(img); // eslint-disable-line no-console
+          // document.body.appendChild(img); // eslint-disable-line no-console
           that.sendToServer(dataUrl);
         })
         .catch((error) => {
