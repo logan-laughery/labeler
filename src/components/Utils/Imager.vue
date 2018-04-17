@@ -7,6 +7,10 @@
       <div id="hiddenImageHolder">
       </div>
     </div>
+    <md-snackbar md-position="bottom center" ref="snackbar" md-duration="4000">
+      <span>An error occurred</span>
+      <md-button class="md-accent" md-theme="light-blue" @click="$refs.snackbar.close()">Dismiss</md-button>
+    </md-snackbar>
   </div>
 </template>
 
@@ -25,16 +29,6 @@ function saveFile(res) {
 
 export default {
   name: 'imager',
-  computed: {
-    svgData() {
-      return this.svg;
-    },
-  },
-  data() {
-    return {
-      svg: '',
-    };
-  },
   methods: {
     sendToServer(pngUrl) {
       const headers = {
@@ -51,6 +45,7 @@ export default {
         saveFile(response);
       })
       .catch((error) => {
+        this.$refs.snackbar.open();
         console.log(error); // eslint-disable-line no-console
       });
     },
@@ -79,21 +74,6 @@ export default {
           img.src = dataUrl;
           // document.body.appendChild(img); // eslint-disable-line no-console
           that.sendToServer(dataUrl);
-        })
-        .catch((error) => {
-          console.log(error); // eslint-disable-line no-console
-        });
-    },
-    saveAsImage2() {
-      const that = this;
-      console.log('Handling click'); // eslint-disable-line no-console
-      DomToImage.toSvg(document.getElementById('imager').firstElementChild)
-        .then((dataUrl) => {
-          that.svg = dataUrl;
-          DomToImage.toPng(document.getElementById('svg-holder'), { style: { display: 'block' } })
-          .then((pngUrl) => {
-            that.sendToServer(pngUrl);
-          });
         })
         .catch((error) => {
           console.log(error); // eslint-disable-line no-console
