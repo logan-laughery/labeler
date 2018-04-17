@@ -15,4 +15,12 @@ export default {
 </script>
 
 <style>
+.md-theme-default.md-tabs.md-transparent>.md-tabs-navigation .md-tab-indicator {
+    background-color: #f57a2b;
+}
+
+.md-theme-default.md-tabs.md-transparent>.md-tabs-navigation .md-tab-header.md-active, 
+.md-theme-default.md-tabs.md-transparent>.md-tabs-navigation .md-tab-header:focus {
+    color: #f57a2b;
+}
 </style>

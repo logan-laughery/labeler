@@ -14,10 +14,9 @@
     "fixlint": "eslint --fix .js,.vue src"
   },
   "dependencies": {
-    "canvg-fixed": "^1.0.0",
+    "axios": "^0.17.1",
     "dom-to-image": "^2.6.0",
-    "jspdf": "^1.3.5",
-    "save-svg-as-png": "^1.2.0",
+    "js-file-download": "^0.4.1",
     "vue": "^2.5.2",
     "vue-color": "^2.4.3",
     "vue-material": "^0.8.1",
