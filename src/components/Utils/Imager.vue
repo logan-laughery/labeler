@@ -51,6 +51,7 @@ export default {
     },
     saveAsImage() {
       const that = this;
+
       if (document.contains(document.getElementById('hiddenImageHolder'))) {
         while (document.getElementById('hiddenImageHolder').firstChild) {
           document.getElementById('hiddenImageHolder').removeChild(document.getElementById('hiddenImageHolder').firstChild);
@@ -62,11 +63,13 @@ export default {
       tester.id = 'image-dup';
       tester.style = 'display: inline-block;';
       document.getElementById('hiddenImageHolder').appendChild(tester);
+
       const scaleAmount = 4;
       tester.style.height = tester.firstElementChild.clientHeight * scaleAmount;
       tester.style.width = tester.firstElementChild.clientWidth * scaleAmount;
       tester.firstElementChild.style = `transform:scale(${scaleAmount}); display: inline-block; transform-origin: top left;`;
       tester.firstElementChild.style.backgroundColor = 'white';
+
       DomToImage.toPng(document.getElementById('image-dup'), { style: { display: 'block' } })
         .then((dataUrl) => {
           const img = new Image();
