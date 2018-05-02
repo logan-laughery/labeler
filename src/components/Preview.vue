@@ -1,7 +1,7 @@
 <template>
   <md-layout class="preview">
     <interaction>
-      <imager>
+      <imager ref="imager">
         <default-template :model="model.template" class="md-whiteframe-2dp"/>
       </imager>
     </interaction>
@@ -33,6 +33,11 @@ export default {
       svgContent: '',
       editedContent: '',
     };
+  },
+  methods: {
+    exportPdf() {
+      this.$refs.imager.exportPdf();
+    },
   },
 };
 </script>

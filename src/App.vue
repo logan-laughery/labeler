@@ -3,8 +3,13 @@
     <title-bar 
       v-bind:title="title"
       v-on:menu-click="toggleSidebar"/>
-    <side-bar v-model="sidebarIsOpen"/>
-    <workspace/>
+    <side-bar 
+      v-model="sidebarIsOpen"    
+      v-on:export-pdf="exportPdf"
+      v-on:export-json="exportJson"
+      v-on:load="load"
+      v-on:new="newTemplate"/>
+    <workspace ref="workspace"/>
   </div>
 </template>
 
@@ -29,6 +34,19 @@ export default {
   methods: {
     toggleSidebar() {
       this.sidebarIsOpen = !this.sidebarIsOpen;
+    },
+    exportPdf() {
+      this.$refs.workspace.exportPdf();
+      this.sidebarIsOpen = false;
+    },
+    exportJson() {
+
+    },
+    load() {
+
+    },
+    newTemplate() {
+
     },
   },
 };

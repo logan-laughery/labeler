@@ -1,7 +1,5 @@
 <template>
-  <div id="imager"
-    v-on:click="saveAsImage"
-  >
+  <div id="imager">
     <slot></slot> 
     <div id="hidder">    
       <div id="hiddenImageHolder">
@@ -49,7 +47,7 @@ export default {
         console.log(error); // eslint-disable-line no-console
       });
     },
-    saveAsImage() {
+    exportPdf() {
       const that = this;
 
       if (document.contains(document.getElementById('hiddenImageHolder'))) {

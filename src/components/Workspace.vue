@@ -1,7 +1,7 @@
 <template>
   <md-layout md-row id="workspace"> 
     <md-layout md-flex-medium="100" md-flex="50"  v-bind:class="{ showSm: previewing, hideSm: !previewing }">
-      <preview :model="content"/>
+      <preview :model="content" ref="preview"/>
     </md-layout>
     <md-layout md-flex-medium="100" md-flex="50" id="right-panel" class="md-whiteframe-6dp" v-bind:class="{ hideSm: previewing }">
       <editor :content="content"/>
@@ -33,6 +33,9 @@ export default {
   methods: {
     togglePreview() {
       this.previewing = !this.previewing;
+    },
+    exportPdf() {
+      this.$refs.preview.exportPdf();
     },
   },
   // Holds Preview / Editor panes
