@@ -1,5 +1,5 @@
 <template>
-  <md-layout md-row id="workspace"> 
+  <md-layout md-row id="workspace">
     <md-layout md-flex-medium="100" md-flex="50"  v-bind:class="{ showSm: previewing, hideSm: !previewing }">
       <preview :model="content" ref="preview"/>
     </md-layout>
@@ -17,6 +17,7 @@
 import Preview from '@/components/Preview';
 import Editor from '@/components/Editor';
 import DefaultTemplateData from '@/components/DefaultTemplate/assets/Demo';
+import fileDownload from 'js-file-download';
 
 export default {
   name: 'workspace',
@@ -32,10 +33,20 @@ export default {
   },
   methods: {
     togglePreview() {
+      document.getElementById('workspace').click();
       this.previewing = !this.previewing;
     },
     exportPdf() {
       this.$refs.preview.exportPdf();
+    },
+    exportJson() {
+      fileDownload(JSON.stringify(this.content), 'json-export.json');
+    },
+    loadJson(json) {
+      this.content = JSON.parse(json);
+    },
+    newTemplate() {
+      this.content = DefaultTemplateData;
     },
   },
   // Holds Preview / Editor panes
@@ -62,7 +73,9 @@ export default {
 
 @media (max-width: 1264px) {
   .hideSm {
-      display: none;
+      height: 0px;
+      visibility: hidden;
+      position: absolute;
   }
   .showSm {
       display: initial;

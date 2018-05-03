@@ -9,11 +9,17 @@
     </div>
 
     <div>
+      <input
+        id="fileUpload"
+        type="file"
+        hidden 
+        @change="filesChange($event.target.name, $event.target.files)"
+      />
       <md-list>
         <md-list-item @click="pdfExport">Export as pdf</md-list-item>
         <md-list-item @click="jsonExport">Export as json</md-list-item>
-        <md-list-item @click="jsonExport">Load json</md-list-item>
-        <md-list-item @click="jsonExport">New</md-list-item>
+        <md-list-item @click="chooseFiles">Load json</md-list-item>
+        <md-list-item @click="newTemplate">New</md-list-item>
       </md-list>
     </div>
   </md-sidenav>
@@ -39,6 +45,20 @@ export default {
     },
   },
   methods: {
+    chooseFiles() {
+      document.getElementById('fileUpload').click();
+    },
+    filesChange(fileName, files) {
+      console.log('fileName', fileName); // eslint-disable-line no-console
+      console.log('files', files); // eslint-disable-line no-console
+      const fReader = new FileReader();
+
+      fReader.onload = () => {
+        this.$emit('load-json', fReader.result);
+      };
+
+      fReader.readAsText(files[0]);
+    },
     closeNav() {
       this.$emit('input', false);
     },
@@ -46,13 +66,10 @@ export default {
       this.$emit('export-pdf');
     },
     jsonExport() {
-
+      this.$emit('export-json');
     },
-    load() {
-
-    },
-    new() {
-
+    newTemplate() {
+      this.$emit('new-template');
     },
   },
 };

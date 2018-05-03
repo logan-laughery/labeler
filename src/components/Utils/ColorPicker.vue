@@ -1,5 +1,5 @@
 <template>
-  <div class="color-picker">  
+  <div class="color-picker">
     <chrome-picker class="picker"
       :value="color"
       @input="updateValue"
@@ -24,6 +24,13 @@ export default {
     value: {
       type: String,
       default: '#00000',
+    },
+  },
+  watch: {
+    value(newValue, oldValue) {
+      if (newValue !== oldValue) {
+        this.hex = newValue;
+      }
     },
   },
   computed: {

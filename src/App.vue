@@ -7,8 +7,8 @@
       v-model="sidebarIsOpen"    
       v-on:export-pdf="exportPdf"
       v-on:export-json="exportJson"
-      v-on:load="load"
-      v-on:new="newTemplate"/>
+      v-on:load-json="loadJson"
+      v-on:new-template="newTemplate"/>
     <workspace ref="workspace"/>
   </div>
 </template>
@@ -40,13 +40,17 @@ export default {
       this.sidebarIsOpen = false;
     },
     exportJson() {
-
+      this.$refs.workspace.exportJson();
+      this.sidebarIsOpen = false;
     },
-    load() {
-
+    loadJson(json) {
+      console.log('app loadJson', json); // eslint-disable-line no-console
+      this.$refs.workspace.loadJson(json);
+      this.sidebarIsOpen = false;
     },
     newTemplate() {
-
+      this.$refs.workspace.newTemplate();
+      this.sidebarIsOpen = false;
     },
   },
 };
