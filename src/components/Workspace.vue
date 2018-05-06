@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       previewing: false,
-      content: DefaultTemplateData,
+      content: JSON.parse(JSON.stringify(DefaultTemplateData)),
     };
   },
   methods: {
@@ -46,7 +46,7 @@ export default {
       this.content = JSON.parse(json);
     },
     newTemplate() {
-      this.content = DefaultTemplateData;
+      this.content = JSON.parse(JSON.stringify(DefaultTemplateData));
     },
   },
   // Holds Preview / Editor panes

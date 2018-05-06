@@ -16,10 +16,13 @@
         @change="filesChange($event.target.name, $event.target.files)"
       />
       <md-list>
-        <md-list-item @click="pdfExport">Export as pdf</md-list-item>
+        <md-list-item @click="pdfExport" v-if="loggedIn">Export as pdf</md-list-item>
         <md-list-item @click="jsonExport">Export as json</md-list-item>
         <md-list-item @click="chooseFiles">Load json</md-list-item>
         <md-list-item @click="newTemplate">New</md-list-item>
+        <md-divider></md-divider>
+        <md-list-item @click="logout" v-if="loggedIn">Logout</md-list-item>
+        <md-list-item @click="login" v-if="!loggedIn">Login</md-list-item>
       </md-list>
     </div>
   </md-sidenav>
@@ -28,7 +31,7 @@
 <script>
 export default {
   name: 'side-bar',
-  props: ['value'],
+  props: ['value', 'loggedIn'],
   data() {
     return {
       previouslyOpen: false,
@@ -71,6 +74,12 @@ export default {
     newTemplate() {
       this.$emit('new-template');
     },
+    login() {
+      this.$emit('login');
+    },
+    logout() {
+      this.$emit('logout');
+    },
   },
 };
 </script>
@@ -84,5 +93,10 @@ export default {
 }
 .logo-title.md-title {
   margin: 0 auto !important;
+}
+#message {
+  font-style: italic;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 </style>

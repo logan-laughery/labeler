@@ -6,7 +6,7 @@
       </div>
     </div>
     <md-snackbar md-position="bottom center" ref="snackbar" md-duration="4000">
-      <span>An error occurred</span>
+      <span>{{snackMessage}}</span>
       <md-button class="md-accent" md-theme="light-blue" @click="$refs.snackbar.close()">Dismiss</md-button>
     </md-snackbar>
   </div>
@@ -16,6 +16,7 @@
 import DomToImage from 'dom-to-image';
 import fileDownload from 'js-file-download';
 import axios from 'axios';
+import loginService from '@/components/Utils/services/Login';
 
 // https://github.com/axios/axios/issues/448
 function saveFile(res) {
@@ -27,8 +28,20 @@ function saveFile(res) {
 
 export default {
   name: 'imager',
+  data() {
+    return {
+      snackMessage: 'An error occurred',
+    };
+  },
   methods: {
     sendToServer(pngUrl) {
+      const creds = loginService.getCredentials();
+      if (!creds) {
+        this.snackMessage = 'Please login to export pdf files';
+        this.$refs.snackbar.open();
+        return;
+      }
+
       const headers = {
         'Access-Control-Allow-Origin': '*',
         Accept: 'application/json',
@@ -37,12 +50,15 @@ export default {
       };
 
       axios.post(process.env.PDF_GENERATOR_URL, {
+        user: creds.user,
+        pass: creds.pass,
         image: pngUrl,
       }, headers)
       .then((response) => {
         saveFile(response);
       })
       .catch((error) => {
+        this.snackMessage = 'An error occurred';
         this.$refs.snackbar.open();
         console.log(error); // eslint-disable-line no-console
       });

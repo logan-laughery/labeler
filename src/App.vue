@@ -3,13 +3,19 @@
     <title-bar 
       v-bind:title="title"
       v-on:menu-click="toggleSidebar"/>
-    <side-bar 
+    <side-bar
+      :loggedIn="loggedIn"
       v-model="sidebarIsOpen"    
       v-on:export-pdf="exportPdf"
       v-on:export-json="exportJson"
       v-on:load-json="loadJson"
-      v-on:new-template="newTemplate"/>
-    <workspace ref="workspace"/>
+      v-on:new-template="newTemplate"
+      v-on:login="openLogin"
+      v-on:logout="logout"/>
+    <workspace ref="workspace" v-show="!showLogin"/>
+    <login v-show="showLogin"
+      v-on:login="loginSuccess"
+      v-on:editor="openEditor"/>
   </div>
 </template>
 
@@ -17,6 +23,8 @@
 import TitleBar from '@/components/Layout/TitleBar';
 import Workspace from '@/components/Workspace';
 import SideBar from '@/components/Layout/SideBar';
+import Login from '@/components/Layout/Login';
+import loginService from '@/components/Utils/services/Login';
 
 export default {
   name: 'app',
@@ -24,11 +32,14 @@ export default {
     TitleBar,
     Workspace,
     SideBar,
+    Login,
   },
   data() {
     return {
       title: 'Labeler',
       sidebarIsOpen: false,
+      showLogin: false,
+      loggedIn: false,
     };
   },
   methods: {
@@ -52,6 +63,24 @@ export default {
       this.$refs.workspace.newTemplate();
       this.sidebarIsOpen = false;
     },
+    logout() {
+      loginService.logout();
+      this.loggedIn = false;
+    },
+    loginSuccess() {
+      this.loggedIn = true;
+      this.showLogin = false;
+    },
+    openLogin() {
+      this.showLogin = true;
+      this.sidebarIsOpen = false;
+    },
+    openEditor() {
+      this.showLogin = false;
+    },
+  },
+  mounted() {
+    this.loggedIn = loginService.isLoggedIn();
   },
 };
 </script>
