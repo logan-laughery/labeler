@@ -1,3 +1,6 @@
+# Custom
+config/prod.env.js
+
 # Logs
 logs
 *.log
