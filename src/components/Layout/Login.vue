@@ -11,7 +11,7 @@
         </md-input-container>
         <md-input-container class="condensed">
           <label>Password</label>
-          <md-input v-model="pass"/>
+          <md-input type="password" v-model="pass"/>
         </md-input-container>
         <md-button v-on:click="editor" class="md-raised md-dense">
           Return to editor 
