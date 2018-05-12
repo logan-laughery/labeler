@@ -28,6 +28,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Deploy
 ``` bash
+# configure config/prod.env.js to point at the deployed version of LabelerServer
+
 # build for production
 npm run build
 
