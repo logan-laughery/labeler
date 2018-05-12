@@ -17,8 +17,11 @@
     <login v-show="showLogin && !loading"
       v-on:login="loginSuccess"
       v-on:editor="openEditor"/>
-    <div class="spinner-container">
-      <md-spinner v-if="loading" :md-size="125" md-indeterminate></md-spinner>
+    <div v-if="loading" class="spinner-container">
+      <md-spinner
+        :md-size="125" 
+        md-indeterminate
+        class="md-warn"></md-spinner>
     </div>
   </div>
 </template>
@@ -120,10 +123,6 @@ export default {
 
   #container {
     height: 100%;  
-  }
-
-  .md-theme-default.md-spinner .md-spinner-path {
-    stroke: #f57a2b;
   }
 
   .spinner-container {
