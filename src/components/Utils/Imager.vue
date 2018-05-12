@@ -39,6 +39,7 @@ export default {
       if (!creds) {
         this.snackMessage = 'Please login to export pdf files';
         this.$refs.snackbar.open();
+        this.$emit('end-pdf-export');
         return;
       }
 
@@ -56,10 +57,12 @@ export default {
       }, headers)
       .then((response) => {
         saveFile(response, fileName);
+        this.$emit('end-pdf-export');
       })
       .catch((error) => {
-        this.snackMessage = 'An error occurred';
+        this.snackMessage = 'Server call to generate pdf failed';
         this.$refs.snackbar.open();
+        this.$emit('end-pdf-export');
         console.log(error); // eslint-disable-line no-console
       });
     },
@@ -93,6 +96,9 @@ export default {
           that.sendToServer(dataUrl, fileName);
         })
         .catch((error) => {
+          this.snackMessage = 'Failed to encode template';
+          this.$refs.snackbar.open();
+          this.$emit('end-pdf-export');
           console.log(error); // eslint-disable-line no-console
         });
     },

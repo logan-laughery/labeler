@@ -1,7 +1,8 @@
 <template>
   <md-layout md-row id="workspace">
     <md-layout md-flex-medium="100" md-flex="50"  v-bind:class="{ showSm: previewing, hideSm: !previewing }">
-      <preview :model="content" ref="preview"/>
+      <preview :model="content" ref="preview"
+        v-on:end-pdf-export="endPdfExport"/>
     </md-layout>
     <md-layout md-flex-medium="100" md-flex="50" id="right-panel" class="md-whiteframe-6dp" v-bind:class="{ hideSm: previewing }">
       <editor :content="content"/>
@@ -63,6 +64,9 @@ export default {
     },
     newTemplate() {
       this.content = JSON.parse(JSON.stringify(DefaultTemplateData));
+    },
+    endPdfExport() {
+      this.$emit('end-pdf-export');
     },
   },
   // Holds Preview / Editor panes

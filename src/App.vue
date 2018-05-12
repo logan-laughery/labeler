@@ -12,10 +12,14 @@
       v-on:new-template="newTemplate"
       v-on:login="openLogin"
       v-on:logout="logout"/>
-    <workspace ref="workspace" v-show="!showLogin"/>
-    <login v-show="showLogin"
+    <workspace ref="workspace" v-show="!showLogin && !loading"
+      v-on:end-pdf-export="endPdfExport"/>
+    <login v-show="showLogin && !loading"
       v-on:login="loginSuccess"
       v-on:editor="openEditor"/>
+    <div class="spinner-container">
+      <md-spinner v-if="loading" :md-size="125" md-indeterminate></md-spinner>
+    </div>
   </div>
 </template>
 
@@ -40,6 +44,7 @@ export default {
       sidebarIsOpen: false,
       showLogin: false,
       loggedIn: false,
+      loading: false,
     };
   },
   methods: {
@@ -47,8 +52,12 @@ export default {
       this.sidebarIsOpen = !this.sidebarIsOpen;
     },
     exportPdf() {
+      this.loading = true;
       this.$refs.workspace.exportPdf();
       this.sidebarIsOpen = false;
+    },
+    endPdfExport() {
+      this.loading = false;
     },
     exportJson() {
       this.$refs.workspace.exportJson();
@@ -111,5 +120,17 @@ export default {
 
   #container {
     height: 100%;  
+  }
+
+  .md-theme-default.md-spinner .md-spinner-path {
+    stroke: #f57a2b;
+  }
+
+  .spinner-container {
+    width: 100%;
+    height: calc(100% - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 </style>

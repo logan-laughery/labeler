@@ -1,7 +1,8 @@
 <template>
   <md-layout class="preview">
     <interaction>
-      <imager ref="imager">
+      <imager ref="imager"
+         v-on:end-pdf-export="endPdfExport">
         <default-template :model="model.template" class="md-whiteframe-2dp"/>
       </imager>
     </interaction>
@@ -37,6 +38,9 @@ export default {
   methods: {
     exportPdf(fileName) {
       this.$refs.imager.exportPdf(fileName);
+    },
+    endPdfExport() {
+      this.$emit('end-pdf-export');
     },
   },
 };

@@ -54,6 +54,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-y: auto;
 }
 
 #login .md-card {
