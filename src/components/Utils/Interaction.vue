@@ -87,7 +87,7 @@ export default {
   },
   mounted() {
     // Set default zoom on mobile
-    if (document.getElementById('interaction').offsetWidth === 0) {
+    if (document.body.offsetWidth < 1264) {
       const tester = document.getElementById('interaction').parentNode.cloneNode(true);
       tester.id = 'image-dup';
       tester.style = 'visibility: hidden;';
