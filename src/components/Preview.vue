@@ -35,8 +35,8 @@ export default {
     };
   },
   methods: {
-    exportPdf() {
-      this.$refs.imager.exportPdf();
+    exportPdf(fileName) {
+      this.$refs.imager.exportPdf(fileName);
     },
   },
 };

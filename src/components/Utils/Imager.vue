@@ -34,7 +34,7 @@ export default {
     };
   },
   methods: {
-    sendToServer(pngUrl) {
+    sendToServer(pngUrl, fileName) {
       const creds = loginService.getCredentials();
       if (!creds) {
         this.snackMessage = 'Please login to export pdf files';
@@ -55,7 +55,7 @@ export default {
         image: pngUrl,
       }, headers)
       .then((response) => {
-        saveFile(response);
+        saveFile(response, fileName);
       })
       .catch((error) => {
         this.snackMessage = 'An error occurred';
