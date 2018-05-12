@@ -1,7 +1,7 @@
 <template>
   <div>
     <md-layout class="recipe-title">
-      {{ size }}
+      {{ recipeTitle }}
     </md-layout>
     <md-layout>
       <md-layout md-flex="33" v-for="(column, index) in columns"
@@ -26,7 +26,7 @@
 export default {
   name: 'instructions',
   props: {
-    size: {
+    recipeTitle: {
       type: String,
       default: 'RECIPE | 5.5 GAL',
     },

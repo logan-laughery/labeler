@@ -19,6 +19,16 @@ import Editor from '@/components/Editor';
 import DefaultTemplateData from '@/components/DefaultTemplate/assets/Demo';
 import fileDownload from 'js-file-download';
 
+function createFileName(title, version) {
+  const segments = title.toLowerCase().split(' ');
+  const cameled = segments.map((segment) => {
+    const firstLetter = segment.charAt(0);
+    return `${firstLetter.toUpperCase()}${segment.slice(1)}`;
+  }).join('');
+
+  return `${cameled}_${version}`;
+}
+
 export default {
   name: 'workspace',
   components: {
@@ -37,10 +47,16 @@ export default {
       this.previewing = !this.previewing;
     },
     exportPdf() {
-      this.$refs.preview.exportPdf();
+      const fileName = createFileName(this.content.template.title,
+        this.content.template.version);
+
+      this.$refs.preview.exportPdf(`${fileName}.pdf`);
     },
     exportJson() {
-      fileDownload(JSON.stringify(this.content), 'json-export.json');
+      const fileName = createFileName(this.content.template.title,
+        this.content.template.version);
+
+      fileDownload(JSON.stringify(this.content), `${fileName}.json`);
     },
     loadJson(json) {
       this.content = JSON.parse(json);

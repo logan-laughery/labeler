@@ -34,7 +34,7 @@
     <aroma-wheel id="bottom-wheel" :wedges="model.bottomWheel.wheel"
       :topText="model.bottomWheel.topText"
       :bottomText="model.bottomWheel.bottomText"/>
-    <instructions id="instructions" :size="model.size"
+    <instructions id="instructions" :recipeTitle="model.recipeTitle"
       :columns="model.instructions"/>
   </div>
 </template>
@@ -95,12 +95,12 @@ export default {
               { color: '#ffcd08', text: 'Aroma12' },
             ],
           },
+          recipeTitle: 'RECIPE | 5.5 GAL',
           instructions: [
             [
               { title: 'SECTION', content: 'Content' },
             ],
           ],
-          size: 'RECIPE | 5.5 GAL',
         };
       },
     },

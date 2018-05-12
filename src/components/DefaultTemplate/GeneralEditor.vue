@@ -31,6 +31,10 @@
         <label>IBU</label>
         <md-textarea v-model="content.ibu"></md-textarea>
       </md-input-container>
+      <md-input-container>
+        <label>Recipe Title</label>
+        <md-textarea v-model="content.recipeTitle"></md-textarea>
+      </md-input-container>
     </md-card-content>
   </md-card>
 </template>

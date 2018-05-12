@@ -44,6 +44,7 @@ module.exports = {
         { color: '#d4aa00', text: 'Bubble Gum' },
       ],
     },
+    recipeTitle: 'RECIPE | 6.0 GAL',
     instructions: [
       [
         {

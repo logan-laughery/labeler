@@ -19,11 +19,11 @@ import axios from 'axios';
 import loginService from '@/components/Utils/services/Login';
 
 // https://github.com/axios/axios/issues/448
-function saveFile(res) {
+function saveFile(res, providedFileName) {
   const disposition = res.headers['content-disposition'];
   const filename = decodeURI(disposition.match(/filename=(.*)/)[1]);
 
-  fileDownload(res.data, filename);
+  fileDownload(res.data, providedFileName || filename);
 }
 
 export default {
@@ -63,7 +63,7 @@ export default {
         console.log(error); // eslint-disable-line no-console
       });
     },
-    exportPdf() {
+    exportPdf(fileName) {
       const that = this;
 
       if (document.contains(document.getElementById('hiddenImageHolder'))) {
@@ -90,7 +90,7 @@ export default {
           img.id = 'test';
           img.src = dataUrl;
           // document.body.appendChild(img); // eslint-disable-line no-console
-          that.sendToServer(dataUrl);
+          that.sendToServer(dataUrl, fileName);
         })
         .catch((error) => {
           console.log(error); // eslint-disable-line no-console
