@@ -12,7 +12,8 @@
       v-on:new-template="newTemplate"
       v-on:login="openLogin"
       v-on:logout="logout"/>
-    <workspace ref="workspace" v-show="!showLogin && !loading"
+    <workspace ref="workspace" v-show="!showLogin"
+      v-bind:class="{ softHide: loading }"
       v-on:end-pdf-export="endPdfExport"/>
     <login v-show="showLogin && !loading"
       v-on:login="loginSuccess"
@@ -131,5 +132,16 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .softHide {
+    width: 0px;
+    height: 0px !important;
+  }
+  
+  .softHide .preview {
+    height: 0px;
+    visibility: hidden;
+    position: absolute;
   }
 </style>
